@@ -26,3 +26,5 @@ You can alternatively use remix.ethereum.org to deploy the contract in `contract
 `cd` into the `/app` directory and run `npm install`
 
 To run the front-end application run `npm start` from the `/app` directory. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+Reference: https://github.com/eduairet/escrow-hardhat
