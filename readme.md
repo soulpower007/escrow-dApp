@@ -1,21 +1,7 @@
-<a href="https://trackgit.com">
-<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/ljptv85ckadr3gmo1glj" alt="trackgit-views" />
-</a>
 
-# Decentralized Escrow Application
+# DeFi: Decentralized Escrow Application
 
-This is an Escrow Dapp built with [Hardhat](https://hardhat.org/).
-
-Steps:
-
-1. Buyer User creates a New Contract with an mediater User and a Beneficiary User and deposits some ETH.
-2. Beneficiary User sends the product bought from the Buyer user.
-3. mediater User confirms and approves the Contract. Only the mediater User can do it.
-4. Dapp finally sends ETH to the Beneficiary User.
-
-Each user logged in can see his contracts and/or the contracts to approve.
-
-[Here](https://goerli.etherscan.io/address/0x372f23359dBBD48afF731A50eCc4C1AcF0C06745) you can see and example of transactions on the contract.
+This is an Escrow Dapp for my Blockchain final Project.
 
 ## Project Layout
 
@@ -29,9 +15,11 @@ There are three top-level folders:
 
 Install dependencies in the top-level directory with `npm install`.
 
-After you have installed hardhat locally, you can use commands to test and compile the contracts, among other things. To learn more about these commands run `npx hardhat help`.
+Go into the contracts folder
 
 Compile the contracts using `npx hardhat compile`. The artifacts will be placed in the `/app` folder, which will make it available to the front-end. This path configuration can be found in the `hardhat.config.js` file.
+
+You can alternatively use remix.ethereum.org to deploy the contract in `contracts/EscrowList.sol` and fetch the contract address and update the environment file with it.
 
 ## Front-End
 
